@@ -76,3 +76,27 @@
  - Initiates a MULTIPLE timing point prompt and returns a vector double
  - Input (Int) Number of Inputs, (Optional Bool) Toggle Flooring Flag
  - Return (VDouble) Offset, (VDouble) Code, (VString) Extension
+
+**_FLOORING_CAL.Flooring_S:**
+
+ - Initiates the Flooring
+ - Input (Double) Fix Offset
+ - Return (Double) Fixed Offset
+
+**_FLOORING_CAL.Flooring_M:**
+
+ - Initiates the Flooring
+ - Input (VDouble) Fix Offset List
+ - Return (VDouble) Fixed Offset List
+
+**_INPUT_VALIDATOR_CAL.Input_Value_I:**
+
+ - Initiates a integer prompt based on range and uses a loop to make sure a valid input is done
+ - Input (Double) Lower Bound, (Double) Upper Bound, (Bool) Inclusive of End Points
+ - Return (Int) User Input
+
+**_INPUT_VALIDATOR_CAL.Input_Value_D:**
+
+ - Initiates a double prompt based on range and uses a loop to make sure a valid input is done
+ - Input (Double) Lower Bound, (Double) Upper Bound, (Bool) Inclusive of End Points
+ - Return (Double) User Input
