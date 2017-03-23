@@ -1,3 +1,5 @@
+# I have no idea how to create a library :(
+
 # ManiaLib
 osu!mania Library for General Purposes
 
