@@ -11,19 +11,19 @@
 - S: Singular
 - M: Multiple
 
-**.BPM_CtoV:**  
+**_CONVERTER.BPM_CtoV:**  
 
 - Converts BPM Value to Code
 - Input (Double) Value
 - Return (Double) Code
 
-**.BPM_VtoC:** 
+**_CONVERTER.BPM_VtoC:** 
 
 - Converts BPM Code to Value
 - Input (Double) Code
 - Return (Double) Value
 	
-**.SV_CtoV:**
+**_CONVERTER.SV_CtoV:**
 
 - Converts SV Value to Code  
 - Input (Double) Value  
