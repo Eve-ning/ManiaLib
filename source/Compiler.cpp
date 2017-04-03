@@ -32,7 +32,7 @@ void Compiler::Compiler_NN(int key_No, int key, double offset, std::string exten
 	}
 
 	//Printing out the compiled short note
-	std::cout << keyCode << ",192," << offset << "," << extension << std::endl;
+	std::cout << keyCode << ",192," << floor(offset) << "," << extension << std::endl;
 
 }
 
@@ -67,7 +67,7 @@ void Compiler::Compiler_NL(int key_No, int key, double offset, double offset2, s
 	}
 
 	//Printing out the compiled long note
-	std::cout << keyCode << ",192," << offset << ",128,0," << offset2 << extension << std::endl;
+	std::cout << keyCode << ",192," << floor(offset) << ",128,0," << offset2 << extension << std::endl;
 
 }
 
